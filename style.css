@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+body {
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(203, 198, 198);
+  position: relative;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.container {
+  /* height: 35rem; */
+  /* width: 35rem; */
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 50px auto 0;   */
+  /* background-color: green;  */
+
+}
+
+.game {
+  margin-top: 50px;
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  background-color: #747373dd;
+  font-size: 8vmin;
+  color: brown;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btns{
+  margin-top: 10px;  
+  display: flex;
+  gap: 2rem ;  
+}
+
+#btn {
+  height: 7vmin;  
+  width: 18vmin;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: lightgoldenrodyellow;
+}
+
+#btn:active {
+  transform: translateY(-4px);
+}
+
+#h2 {
+  padding-top: 10px;
+  /* visibility: hidden; */
+  /* position: absolute;
+  top: 80px;
+  left: 500px; */
+}
+
+.O_style {
+  font-size: 100px;
+  color: yellow;
+  font-weight: 700;
+}
+
+.X_style {
+  font-size: 90px;
+  color: magenta;
+  font-weight: 700;
+}
