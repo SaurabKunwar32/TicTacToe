@@ -63,7 +63,7 @@ let disableBoxes = () => {
 };
 
 let Restart = () => {
-  turnO = true;
+  turnO = false;
   enableBoxes();
   h2.style.visibility = "hidden";
 };
@@ -72,6 +72,7 @@ let enableBoxes = () => {
   for (let box of boxes) {
     box.disabled = false;
     box.innerText = "";
+    box.classList.remove("O_style", "X_style");
   }
 };
 
