@@ -10,9 +10,11 @@
 body {
   text-align: center;
   margin-top: 20px;
-  background-color: rgb(203, 198, 198);
+  /* background-color: rgb(203, 198, 198); */
+  background: black  ;
   position: relative;
   overflow-x: hidden;
+  color: white;
 }
 
 h1 {
@@ -34,11 +36,10 @@ h1 {
 
 .game {
   margin-top: 50px;
-  height: 60vmin;
+  /* height: 60vmin; */
   width: 60vmin;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -46,9 +47,8 @@ h1 {
 .box {
   height: 18vmin;
   width: 18vmin;
-  border-radius: 1rem;
   border: none;
-  background-color: #747373dd;
+  background-color: black;
   font-size: 8vmin;
   color: brown;
   outline: none;
@@ -58,6 +58,17 @@ h1 {
 }
 
 
+#btn1{
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+}
+#btn2{
+  border-bottom: 4px solid white;
+}
+#btn3{
+  border-right: 4px solid white;
+}
+
 .btns{
   margin-top: 10px;  
   display: flex;
@@ -65,6 +76,7 @@ h1 {
 }
 
 #btn {
+  margin-top: 2rem;
   height: 7vmin;  
   width: 18vmin;
   border-radius: 6px;
@@ -90,11 +102,11 @@ h1 {
 .O_style {
   font-size: 100px;
   color: yellow;
-  font-weight: 700;
+  font-weight: 1000;
 }
 
 .X_style {
-  font-size: 90px;
+  font-size: 100px;
   color: magenta;
-  font-weight: 700;
+  font-weight: 1000;
 }
